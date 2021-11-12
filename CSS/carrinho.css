@@ -1,0 +1,31 @@
+table{
+  width: 88%;
+  border: 4px solid blue;
+  border-radius: 19px;
+  margin: 0 0 0 5%;
+}
+#tabela{
+  display: grid;
+  padding: 2% 0 8% 0;
+}
+h5{
+  width: 100%;
+  align-items: center;
+  font-size: 36px;
+  color: rgba(243, 131, 245, 0.8);
+  font-style: oblique;
+  text-align: center;
+}
+.título_tabela{
+  font-size: 25px;
+  color: aquamarine;
+}
+td{
+  max-width: 100%;
+  text-align: center;
+}
+#quant{
+  width: 30%;
+  border: 4px black;
+
+}

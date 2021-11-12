@@ -1,0 +1,99 @@
+@media all and (min-width:320px) and (max-width:425px){
+  .cadastro{
+    width: 93%;
+    height: 1318px;
+  margin: 0 2% 0 1%;
+  }
+  #cadastrar {
+    position: relative;
+    width: 14em;
+    margin: 15% 0 0 -37%;
+    height: 3em;
+    border: 5px  solid rgb(220, 175, 244);
+    border-radius: 10px;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #cf0767;
+  }
+  #cadastrar:hover{
+    background-color: #cf0767;
+    color: #ffffff;
+    transition: all .6s ease-out;
+  }
+  #não-cadastro{
+    color:rgb(219, 18, 217);
+    text-decoration: none;
+    margin-top: 15px;
+  }
+  #não-cadastro a{
+    text-decoration: none;
+  }
+  #olhoaberto-cada1{
+    display: flex;
+    position: relative;
+    float: right;
+    margin: -12% 42% 0 -135%;
+    }
+  #olhoaberto-cada{
+    position:relative;
+    display: flex;
+    float: right;
+    margin: -12% 42% 0 0;
+    width:25px;
+    cursor: pointer;
+  }
+  .form{
+    margin-left: 8em;
+  }
+  .form li ,label{
+    margin: 0 0 0 -12%;
+  }
+  .form input, select, #sexo{
+margin: 0 0 0 -39%;
+display: flex;
+}
+  #nome, #endereço, #comentário{
+    width: 138%;
+    height: 3%;
+    display: flex;
+    margin: 1% 0 0 -59%;
+    outline: none;
+  }
+  #telefone, #complemento, #bairro, #cidade{
+    width: 176px;
+    display: flex;
+    margin: 0 0 0 -36%;
+  }
+
+
+
+  .caixa-de-login{
+    margin: 6% 0 14% -125%;
+    width: 75%;
+  }
+  #nome-senha{
+    width: 72%;
+  }
+  #nome-senha p{
+    margin: 0 0 0 37%;
+  }
+  #usuário, #senha{
+    width: 133%;
+  }
+  #olhofechado{
+    margin: -19% -22% 0 51%;
+  }
+  .olhoaberto_cad{
+    position: absolute;
+    margin: -9% 0 0 25%;
+  }
+  .olhoaberto_cad_conf{
+    position: absolute;
+    margin: -9% 0 0 25%;
+  }
+}
+@media all and (min-width: 375px) and (max-width:425px){
+  #olhofechado{
+    margin: -16% -22% 0 56%;
+  }
+}

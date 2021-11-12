@@ -1,0 +1,131 @@
+.cadastro{
+  width: 68%;
+  height: 47%;
+  position: relative;
+  display: flex;
+  border: 5px solid rgb(220, 175, 244);
+border-radius: 20px;
+margin: 0 2% 0 16%;
+box-shadow:8px 15px 20px;
+}
+#cadastrar {
+  position: relative;
+  width: 14em;
+  margin: 3% 0 3% 35%;
+  height: 3em;
+  border: 5px  solid rgb(220, 175, 244);
+  border-radius: 10px;
+cursor: pointer;
+font-weight: bolder;
+color: #cf0767;
+}
+#cadastrar:hover{
+  background-color: #cf0767;
+  color: #ffffff;
+  transition: all .6s ease-out;
+}
+#não-cadastro{
+  color:rgb(219, 18, 217);
+  text-decoration: none;
+  margin-top: 15px;
+}
+#não-cadastro a{
+  text-decoration: none;
+}
+#olhoaberto-cada1{
+  position:relative;
+  display: flex;
+  float: right;
+  margin: -4% 57% 0 0;
+  width:25px;
+  cursor: pointer;
+}
+#olhoaberto-cada{
+  position:relative;
+  display: flex;
+  float: right;
+  margin: -4% 38% 0 0;
+  width:25px;
+  cursor: pointer;
+}
+.form{
+  margin-left: 8em;
+}
+.form li ,label{
+  padding: 5px 5px;
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  font-style: italic;
+  color: #cf0767;
+}
+.form input, select{
+    border: 3px solid rgb(220, 175, 244);
+  border-radius: 20px;
+  height: 30px;
+  font-size: 15px;
+  color: blue;
+  outline: none;
+}
+
+#nome, #endereço, #comentário{
+  width: 510px;
+  outline: none;
+}
+#telefone, #complemento, #bairro, #cidade{
+  width: 210px;
+}
+
+
+
+
+.caixa-de-login{
+  margin:20px 0 8% -1%;
+  width: 30em;
+  text-align: center;
+  left: 26em;
+  padding: 16px;
+  position: relative;
+  border: 5px  solid rgb(220, 175, 244);
+  border-radius: 10px;
+  box-shadow: 8px 15px 20px;
+}
+#usuário, #senha{
+  text-align: center;
+  width: 25em;
+  height: 3em;
+  border: 5px  solid rgb(220, 175, 244);
+  border-radius: 10px;
+  outline: none;
+}
+#olhofechado{
+  position:absolute;
+  display: flex;
+  float: right;
+  margin: -10.5% 0 0 73%;
+  cursor: pointer;
+}
+#entrar{
+  position: relative;
+  height: 36px;
+  margin-top: 10px;
+  width: 100px;
+  cursor: pointer;
+  font-weight:bolder;
+  border: 5px  solid rgb(220, 175, 244);
+  border-radius: 10px;
+  color: blue;
+}
+#entrar:hover{
+  background-color: #cf0767;
+  color: #ffffff;
+  transition: all .6s ease-out;
+}
+.olhoaberto_cad{
+  margin: 0 0 0 -6%;
+  cursor: pointer;
+}
+.olhoaberto_cad_conf{
+  margin: 0 0 0 -6%;
+  cursor: pointer;
+}

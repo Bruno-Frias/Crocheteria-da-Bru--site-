@@ -1,0 +1,279 @@
+@media all and (min-width:320px) and (max-width:425px){
+  #logo{
+      width:95px;
+      margin: 0;
+    }
+    #título{
+      margin: 0% 0 0 2%;
+      font-size:25px;
+    }
+    #título_g{
+      display: flex;
+      position: relative;
+      font-size: 22px;
+    }
+    #slides{
+      max-width: 300px;
+      margin: 0 auto;
+    }
+    #slides img{
+      max-width: 100%;
+    }
+  #menu{
+    display: -ms-flexbox;
+    flex-wrap: nowrap;
+    width: 100%;
+    top: 76px;
+    right: 0px;
+    background:rgba(243, 131, 245, 0.8);
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  #nav-head.active #menu {
+    margin: -10% 0 0 -21%;
+    height: calc(336vh - 2049%);
+    max-width: 100%;
+    visibility: visible;
+    overflow-y: auto;
+    display:grid;
+  }
+  #menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid;
+  }
+  #menu li a{
+    margin: 0 25% 0 33%;
+  }
+  #menu li{
+    margin: 17px -0px 0 0;
+  }
+  #btn-mobile{
+    display: flex;
+    padding: 1px 1px;
+    margin-top: 1.1em;
+    font-size: 1rem;
+    border: none;
+    background:transparent;
+    cursor: pointer;
+    gap: 0.3em;
+    visibility: visible;
+    color: rgb(203, 42, 177);
+  }
+  #hamburguer{
+    border-top: 2px rgb(203, 42, 177) solid;
+    width: 20px;
+    visibility: visible;
+  }
+  #hamburguer::after,
+  #hamburguer::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: rgb(203, 42, 177);
+    margin-top: 5px;
+    transition: 0.35s;
+    position: relative;
+  }
+  #nav-head.active #hamburguer{
+    border-top-color: transparent;
+  }
+  #nav-head.active #hamburguer::before{
+    transform: rotate(135deg);
+  }
+  #nav-head.active #hamburguer::after{
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+#buscar{
+  float: left;
+  position: relative;
+  margin: -6% 0% 0 30%;
+  }
+  #nav-head.active #buscar{
+    top: -227%;
+    position: relative;
+  }
+  #busca{
+    width: 120px;
+    height: 35px;
+  }
+  #lupa{
+    margin-left: 5px;
+    width: 40px;
+    height: 33px;
+  }
+  #menu{
+    visibility: hidden;
+  }
+  #frase-de-moral{
+    content: "";
+    align-content: space-between;
+    font-size: 31px;
+    justify-content:space-between;
+  }
+  .row-1{
+    float: left;
+    position: relative;
+    width: 80%;
+    margin: 21% 0 28% 16%;
+  }
+  .row-1 img{
+    margin: 0 0 0 -10%;
+  }
+  #compre-aqui{
+    margin: 145% 0 0 -87%;
+    height: 74px;
+    width: 84%;
+  }
+  #compre-aqui a{
+    margin: -13% 0 0 5%;
+    font-size: 34px;
+  }
+  .descrição{
+    margin: 10% 0 0 0;
+    font-size: 38px;
+  }
+  .descrição1{
+    margin: 0 0 0 -5%;
+    font-size: 38px;
+  }
+  .preço{
+    margin: 0 0 0 9%;
+    font-size: 38px;
+  }
+  #carrinho-img-prod{
+    width: 34px;
+    margin: 0 0 -2% 80%;
+  }
+  #whatsapp{
+    margin: 0 0 0 78%;
+  }
+  #what-img{
+    width: 70px;
+  }
+  footer{
+    margin: 13% 0 0 0;
+  }
+  #nav-footer{
+    height: auto;
+    display: grid;
+    margin: 0px 0px 1px 52px;
+  }
+  #nav-footer li{
+  -webkit-padding-start: 25px;
+  }
+  #nav-footer a{
+    position: relative;
+    font-size: 22px;
+    margin: 13px auto 0 25px;
+  }
+#frases-e-mapa{
+  float: left;
+  position: relative;
+  display: grid;
+  align-items: center;
+  margin: 2% 0 0 -12%;
+  justify-content: space-between;
+}
+#frases-e-mapa li{
+  position: relative;
+  margin: 0 0 0 23%;
+  padding: 0;
+}
+#mapa{
+  float: left;
+  width: auto;
+  margin: 0 0 0 27%;
+
+}
+.bandeiras{
+  width: 30px;
+  margin: auto auto auto 11px;
+}
+#map{
+  width: 200px;
+  height: 100px;
+  position: relative;
+}
+#endereço-mapa{
+  position: absolute;
+  margin: 2px auto auto -2px;
+  text-align:left;
+}
+#redes-sociais{
+  position: relative;
+  display: block;
+  margin: 345% auto auto 36%;
+  }
+  .tab-prod{
+    margin: 17% 0 0 0;
+  }
+  .desc-prod{
+    font-size: 39px;
+    margin: 0 0 0 20%;
+  }
+.texto-quem-somos{
+  font-size: 20px;
+  text-align: justify;
+  margin:  1% 12% 10% 12%;
+}
+.texto-termos-e-condições{
+   font-size: 20px;
+  text-align: justify;
+  margin:  1% 12% 10% 12%;
+}
+}
+@media all and (min-width: 375px) and (max-width:424px){
+#nav-head.active #menu{
+  margin: -10% 0 0 -18%;
+}
+#menu li a{
+  margin: 0 25% 0 37%;
+}
+  #redes-sociais{
+    margin: 293% 0 0 36%;
+  }
+  #título{
+    margin: 0 0 0 12%;
+  }
+  #frases-e-mapa{
+    margin: 0 0 0 -4%;
+  }
+  #compre-aqui{
+    margin: 127% 0 0 -87%;
+  }
+  .row-1 img{
+    margin: 0 0 0 -2%;
+  }
+}
+@media all and (min-width:425px) and (max-width: 768px){
+  #nav-head.active #menu{
+    margin: -10% 0 0 -15%;
+  }
+  #menu li a{
+    margin: 0 25% 0 37%;
+  }
+    #redes-sociais{
+      margin: 258% 0 0 36%;
+    }
+    #título{
+      margin: 0 0 0 12%;
+    }
+    #frases-e-mapa{
+      margin: 0 0 0 3%;
+    }
+    #compre-aqui{
+      margin: 99% 0 0 -93%;
+    }
+    .row-1{
+      margin: 23% 0 28% 23%;
+    }
+    .row-1 img{
+      margin: -23% 0 0 -2%;
+    }
+}

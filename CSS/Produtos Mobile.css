@@ -1,0 +1,101 @@
+@media all and (min-width:320px) and (max-width:425px){
+    #prod_e_sub-prod{
+        width: 181%;
+          }
+          #produto{
+            width: 50%;
+            margin: 0 0 4% 3%;
+          }
+          .prod-total{
+            margin: 0 0 280% 0;
+          }
+          .desc-prod{
+            margin: 0 0 0 20%;
+            font-size: 45px;
+          }
+          .desc-prod1{
+            font-size:21px;
+            padding: 0 0 0 2%;
+            margin: 0 5% 0 5%;
+          }
+          .Feito{
+            font-size: 22px;
+          }
+          #sub-produtos{
+            width: 15%;
+            margin: 70% 0 0 -48%;
+          }
+          #sub-produtos2{
+            width: 15%;
+            margin: 70% 0 0 -32%;
+          }
+          #sub-produtos3{
+            width: 15%;
+            margin: 70% 0 0 -15%;
+          }
+          #produto-sousplat{
+         width: 94%;
+            margin: 0 0 4% 3%;
+          }
+          #sub-produtos-sousplat{
+            width: 23%;
+            margin: 97% 0 0 -73%;
+          }
+          #sub-produtos2-sousplat{
+            width: 23%;
+            margin: 99% 0 0 -47%;
+          }
+        #compre-aqui{
+          margin: 4% 0 11% 5%;
+          width: 58%;
+          height: 54px;
+        }
+        #compre-aqui a{
+          font-size: 18px;
+        }
+        #carrinho-img-prod{
+          width: 24px;
+        }
+        .preço-prod{
+          font-size: 40px;
+          margin: 0 0 0 4%;
+        }
+        .parcela{
+          font-size: 18px;
+          margin: 0 0 0 12%;
+        }
+        #valor-de{
+          font-size: 23px;
+        }
+        .tab-prod{
+          margin: 165% 0 0 0;
+        }
+        .tab-prod-sousplat{
+          margin: 19% 0 0 0;
+        }
+        #compre-aqui{
+          margin: 2% 0 5% 18%;
+        }
+        #whatsapp-prod{
+          margin: 0 0 0 42%;
+        }
+        #what-img-prod{
+          float: left;
+          width: 70px;
+          margin: 300% 0 -11% -422%;
+        }
+        .footer-prod{
+          margin: 83% 0 0 0;
+        }
+}
+@media all and (min-width: 375px) and (max-width:425px){
+  .footer-prod{
+    margin: 16% 0 0 0;
+  }
+  .preço-prod{
+    margin: 0 0 0 10%;
+  }
+  #carrinho-img-prod {
+    width: 35px;
+}
+}

@@ -1,0 +1,72 @@
+.formulário{
+  width: 68%;
+  height: 62em;
+  position: relative;
+  display: flex;
+  border: 5px solid rgb(220, 175, 244);
+border-radius: 20px;
+margin-left: 223px;
+box-shadow:8px 15px 20px;
+}
+.form{
+  margin-left: 8em;
+}
+.form li ,label{
+  padding: 5px 5px;
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  font-style: italic;
+  color: #cf0767;
+}
+.form input, select{
+    border: 3px solid rgb(220, 175, 244);
+  border-radius: 20px;
+  height: 30px;
+  font-size: 15px;
+  color: blue;
+  outline: none;
+}
+
+#nome, #endereço, #comentário{
+  width: 510px;
+  outline: none;
+}
+#telefone, #complemento, #bairro, #cidade{
+  width: 210px;
+}
+#comentário{
+  border: 3px solid rgb(220, 175, 244);
+  border-radius: 20px;
+  text-align:center;
+  width: 550px;
+  height: 300px;
+  font-size: 15px;
+  color: blue;
+  margin-left: 50px;
+}
+#enviar{
+  position: relative;
+  left: 267px;
+  width: 100px;
+  cursor: pointer;
+  font-weight:bolder;
+}
+#enviar:hover{
+  background-color: #cf0767;
+  color: #ffffff;
+  transition: all .6s ease-out;
+}
+.sob-encomenda{
+  width: 64%;
+  height: 63em;
+  position: relative;
+  display: flex;
+  border: 5px solid rgb(220, 175, 244);
+border-radius: 20px;
+margin-left: 223px;
+box-shadow:8px 15px 20px;
+}
+#upload{
+ margin: 0 0 0 25%;
+}

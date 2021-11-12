@@ -1,0 +1,92 @@
+@media all and (min-width:320px) and (max-width:425px){
+  .formulário{
+    width: 92%;
+    height: 62%;
+    margin: 0 0 0 -21%;
+  }
+  .sob-encomenda{
+    width: 91%;
+    height: 88em;
+  margin:0 0 0 2%;
+  }
+.form{
+    margin-left: 8%;
+  }
+  .form li ,label{
+    margin: 0 0 0 30%;
+  }
+input{
+  display: flex;
+  position: relative;
+  }
+form{
+  margin: 0 0 0 5%;
+}
+  select{
+    margin: 0 0 0 14%;
+  }
+  #nome, #endereço, #comentário{
+    width: 97%;
+    height: 3%;
+    display: flex;
+    margin: 1% 0 0 -5%;
+    outline: none;
+  }
+  #telefone, #complemento, #bairro, #cidade, #e-mail{
+    width: 76%;
+    display: flex;
+    margin: 0 0 0 6%;
+  }
+
+  #comentário{
+    width: 99%;
+    height: 14%;
+    margin: 0 0 0 -6%;
+  }
+  #enviar{
+    margin: -21% 0 0 -70%;
+    padding: 0 31% 0 18%;
+}
+#upload{
+  width: 102%;
+ margin: 0 0 0 -8%;
+ font-size: 12px;
+ align-items: center;
+ padding-top: 11px;
+ padding-left: 6px;
+}
+}
+@media all and (min-width: 375px) and (max-width:425px){
+.form li, label{
+  margin: 0 0 0 38%;
+}
+  #nome, #endereço, #comentário{
+    width: 99%;
+    margin: 1% 0 0 -5%;
+  }
+  #telefone, #complemento, #bairro, #cidade{
+    margin: 0 0 0 7%;
+    width :83%;
+  } 
+
+  #sexo{
+    width: 5%;
+    margin: 0 0 0 5%;
+    text-align: center;
+  }
+  .form input{
+    width: 100%;
+    margin:0 0 0 -5%;
+  }
+  #comentário{
+    width: 99%;
+    margin: 1% 0 0 -4%;
+  }
+  select{
+    margin: 0 0 0 20%;
+  }
+  #enviar{
+    margin: -16% 0 0 -64%;
+    width: 52%;
+  }
+}
